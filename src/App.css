@@ -1,0 +1,93 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI, sans-serif;
+}
+
+.center-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  flex-direction: column;
+}
+
+.wrap{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.logo{
+  color: #d6676c;
+  letter-spacing: 2px;
+}
+
+.nav{
+  padding: 0;
+  margin: 0;
+  background: #333;
+  padding: 10px;
+}
+
+.nav li{
+  display: inline-block;
+  margin: 0 15px 0 0;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.select-currency{
+  position: fixed;
+  right: 13px;
+  font-size: 15px;
+  padding: 10px;
+  top: 15px;
+}
+
+.page{
+  padding: 10px;
+}
+
+
+.panel-right{
+  position: relative;
+  display: table;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.panel-right-text{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 27px;
+  color: #b5b5b5;
+  line-height: 34px;
+  letter-spacing: 3px;
+}
+
+.exchange-rate-lists{
+  display: flex;
+  flex-direction: column;
+}
+
+.exchange-rate-list-item{
+  display: flex;
+}
+
+.exchange-rate-list-item > div{
+  border: solid #ddd 1px;
+  width: 230px;
+  padding: 10px;
+}
