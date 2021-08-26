@@ -1,1 +1,0 @@
-A Simple Currency Exchange Rates
